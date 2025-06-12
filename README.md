@@ -4,21 +4,28 @@
 
 This project implements a Generative Adversarial Network (GAN) using LSTM layers to predict future human poses based on past motion sequences. The model works with 3D skeletal keypoints and aims to generate realistic future body movements.
 
----
-
-## 📁 Project Structure
 
 ```
+### 
+
 
 📁 GenAI\_skeleton\_prediction/
+
 ├── generator\_lstm1.pth          ← Trained Generator model (tracked with Git LFS)
+
 ├── discriminator\_lstm1.pth      ← Trained Discriminator model (tracked with Git LFS)
+
 ├── X\_pose\_train.npy             ← Input sequences (past T frames)
+
 ├── Y\_pose\_train.npy             ← Ground truth sequences (future M frames)
-├── train\_gan.py                 ← GAN training script
-├── visualize.py                 ← Skeleton visualization tool
-├── evaluate\_metrics.py          ← Evaluation metrics (MAE, MSE, RMSE, etc.)
+
+├── lstm\_gan2.py                 ← GAN training script
+
+
+├── metric\_calculation.py          ← Evaluation metrics (MAE, MSE, RMSE, etc.)
+
 └── README.md                    ← Project documentation
+
 
 ````
 
