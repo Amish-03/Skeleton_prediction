@@ -100,20 +100,15 @@ cd GenAi_skeleton_prediction
 ### 4. Train the Model
 
 ```bash
-python train_gan.py
+python lstm_gan2.py
 ```
 
-### 5. Evaluate the Model
+### 5. Evaluate the Model and Visualize
 
 ```bash
-python evaluate_metrics.py
+python metric_calculation.py
 ```
 
-### 6. Visualize Predictions
-
-```bash
-python visualize.py
-```
 
 ---
 
@@ -129,7 +124,7 @@ python visualize.py
 
 **Amish**
 🎓 B.E. in Electronics and Communication Engineering
-🎸 Guitarist | 🧠 AI Enthusiast
+🎸 Guitarist | 🧠 AIML Enthusiast
 📍 KLE Technological University
 
 ---
@@ -152,7 +147,4 @@ python visualize.py
 
 Thank you for checking out this project! 🌟
 
-```
-
-Let me know if you want a short version or extras like GitHub badges or demo GIFs.
 ```
